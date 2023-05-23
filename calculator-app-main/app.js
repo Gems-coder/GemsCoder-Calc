@@ -21,12 +21,7 @@ VioletTheme.addEventListener("change", () => {
 
 // FUNCTIONALITY
 
-// buttons.forEach((key) => {
-//   key.addEventListener("click", () => {
-//     screen.value === "Error" || screen.value === "undefined"
-//       ? (screen.value = "")
-//       : "";
-//   }
+
 let buttons = document.getElementsByTagName('button');
 [...buttons].forEach(item => {
   item.addEventListener('click', function(e){

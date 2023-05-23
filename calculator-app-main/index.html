@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Mentor | Calculator app</title>
     <link rel="shortcut icon" href="../calculator-app-main/images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  </head>
+  <body>
     <header>
         <h1>GEMSCODER CALCULATOR</h1>
     </header>
@@ -25,9 +25,15 @@
                             <p>3</p>
                         </div>
                         <div class="toggler">
-                            <input class="button" type="radio" name="toggle" value="blue"  id="one" />
-                            <input class="button" type="radio" name="toggle" value="white" id="two" />
-                            <input class="button" type="radio" name="toggle" value="violet" id="three" />
+                            <label for="one">
+                                <input class="button" type="radio" name="toggle" value="blue"  id="one" />
+                            </label>
+                            <label for="two">
+                                <input class="button" type="radio" name="toggle" value="white" id="two" />
+                            </label>
+                            <label for="three">
+                                <input class="button" type="radio" name="toggle" value="violet" id="three" />
+                            </label>
                             <div class="ball"></div>
                           </div>
                     </div>
@@ -64,5 +70,5 @@
    
     <script src="./app.js"></script>
     
-</body>
+  </body>
 </html>
