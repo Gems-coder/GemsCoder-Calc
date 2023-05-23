@@ -21,8 +21,23 @@ VioletTheme.addEventListener("change", () => {
 
 // FUNCTIONALITY
 
+// buttons.forEach((key) => {
+//   key.addEventListener("click", () => {
+//     screen.value === "Error" || screen.value === "undefined"
+//       ? (screen.value = "")
+//       : "";
+//   }
+let buttons = document.getElementsByTagName('button');
+[...buttons].forEach(item => {
+  item.addEventListener('click', function(e){
+      display.value === "Error" || display.value === "undefined"
+      ? (display.value = "")
+      : "";
+  })
+})
+
+
 let display = document.getElementById("display");
-// const value = event.target.innerText;
 
 // This function display values
 
