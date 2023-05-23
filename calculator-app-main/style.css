@@ -258,8 +258,9 @@ button:hover {
   width: 15px;
 }
 
-  .display {
+  #display {
     font-size: 20px;
+    width: 100%;
   }
   .keys {
     row-gap: 10px;
@@ -290,5 +291,9 @@ button:hover {
     padding: 0 20px;
     margin-bottom: 5px;
     height: 600px;
+  }
+
+  #display{
+    width: 100%;
   }
 }
