@@ -42,8 +42,13 @@ function backSpace() {
 }
 
 // This function evaluates the expression and returns result
+
 function calculate() {
-  var problem = display.value;
+  try {
+    var problem = display.value;
   var result = eval(problem);
   display.value = result;
+  } catch (error) {
+    display.value = "Error";
+}
 }
